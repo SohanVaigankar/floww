@@ -1,0 +1,26 @@
+.NodeCardContainer {
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .NodeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #b8f3e6;
+
+    svg {
+      height: 1.125rem;
+      width: 1.125rem;
+    }
+  }
+}
+
+.NodeContent {
+  padding: 1rem;
+  font-weight: 500;
+}
