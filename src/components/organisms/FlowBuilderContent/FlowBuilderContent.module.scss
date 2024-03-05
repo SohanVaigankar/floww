@@ -1,0 +1,12 @@
+.FlowBuilderContent {
+  
+  .FlowCanvasContainer {
+    display: flex;
+
+    .FlowCanvas {
+      width: 75vw;
+      height: 100vh;
+      background: var(--white);
+    }
+  }
+}

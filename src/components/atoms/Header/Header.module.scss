@@ -1,0 +1,25 @@
+.Header {
+  height: 4rem;
+  background-color: var(--primary-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .Status {
+    flex: 1;
+    text-align: center;
+
+    .Error {
+      background: #fbcccb;
+      font-weight: 600;
+      padding: 0.6rem;
+      border-radius: var(--border-radius-md);
+    }
+    .Success {
+      background: #b2ebbb;
+      font-weight: 600;
+      padding: 0.6rem;
+      border-radius: var(--border-radius-md);
+    }
+  }
+}
